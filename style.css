@@ -1,0 +1,56 @@
+.head{
+    display: flex;
+    background-image: url(./images/main-bcg.jpeg);
+    background-size: 1700px;
+    background-repeat: no-repeat;
+    height: 730px;
+    width: 1523px;
+    background-position: center;
+}
+.link a{
+    position: relative;
+    padding-left: 50px;
+   color: white;
+   font-size: 20px;
+   text-decoration: none;
+   /* font-weight: bold; */
+}
+.link img{
+    height: 40px;
+    position: relative;
+    right:-700px ;
+}
+.logo{
+    position: relative;
+    top: -60px;
+    padding-left: 600px;
+    height: 250px;
+    width: 350px;
+}
+.cart {
+    /* height: 20px; */
+    position: absolute;
+    right: 210px;
+    top: 33px;
+}
+.relax{
+    margin-left: 100px;
+    margin-top: -100px;
+    color: white;
+
+}
+.relax span{
+    font-size: 80px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bolder;
+
+}
+.relax p{
+    font-size: 40px;
+}
+.feature{
+    text-align: center;
+}
+.feature span{
+    color: orange;
+}
