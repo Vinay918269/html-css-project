@@ -13,12 +13,28 @@
    color: white;
    font-size: 20px;
    text-decoration: none;
-   /* font-weight: bold; */
+}
+.links a{
+    position: relative;
+    padding-left: 50px;
+   color: black;
+   font-size: 20px;
+   text-decoration: none;
 }
 .link img{
     height: 40px;
     position: relative;
     right:-700px ;
+}
+.links img{
+    height: 40px;
+    position: relative;
+    right:-700px ;
+}
+.bread1{
+    font-size: larger;
+    padding-left: 100px;
+    color: ;
 }
 .logo{
     position: relative;
@@ -53,4 +69,21 @@
 }
 .feature span{
     color: orange;
+}
+.all{
+    margin-left: 650px;
+    padding: 5px 30px;
+    text-align: center;
+    color: white;
+    background-color: darkorange;
+    border-radius: 10px;
+    font-size: larger;
+}
+footer{
+    background-color: grey;
+    border-bottom: 1px solid darkgrey;
+}
+.social img{
+    height: 60px;
+    padding: 10px;
 }

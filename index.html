@@ -6,18 +6,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    
 </head>
 <body>
     <header class="head" >
         <div class="container px-5 mt-5  mx-5">
         <div class="link"> 
-        <a style="margin-left: 50px;" href="">Home</a>
-        <a href="">Products</a>
-        <a href="">About</a>
-        <img src="./images/user-solid.png" alt="">
+        <a style="margin-left: 50px;" href="./index.html">Home</a>
+        <a href="./products.html">Products</a>
+        <a href="./about.html">About</a>
+        <img src="./images/circle-user-solid-white.png" >
         </div>
         <div class="logo ">
-        <img src="./images/logo-white.svg" alt=""></div>
+        <img src="./images/logo-white.svg" ></div>
         <div class="cart">
        <div class="d-inline-flex flex-column align-items-center gap-2">
   <div class="position-relative d-inline-flex p-3  rounded-3">
@@ -42,9 +43,97 @@
     </header><br><br><br>
     <div class="feature">
       <h1> <span>/</span> Featured</h1>
-    </div>
-   
+    </div><br><br>
 
+<!-- card start -->
+
+ <div class="container row row-cols-1 mx-5 px-5 row-cols-md-3 g-5 text-center ">
+  <div class="col">
+    <div class="card w-100  ms-5 border-0 ">
+      <img src="./images/chair.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-title">High-Back Bench</p>
+        <h5 class="card-text">$9.99</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card ms-5 w-100 border-0 ">
+      <img src="./images/utopia sofa.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-title">Utopia Sofa</p>
+        <h5 class="card-text">$39.95</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col ">
+    <div class="card ms-5 w-100 border-0 ">
+      <img src="./images/entertainment center.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-title">Entertainment Center</p>
+        <h5 class="card-text">$29.98</h5>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+
+   <!-- card end -->
+    <button class="all">ALL PRODUCTS</button><br><br>
+<footer>    
+    <div class="container row row-cols-1 row-cols-md-4 mx-5 mt-5 ps-5 py-5  g-4">
+  <div class="col">
+    <div class="card  w-100 ms-5 me-5 border-0" style="background-color: grey;">
+      <img src="./images/logo-white.svg"  alt="logo" style="height: 50px; margin-left: -170px;">
+      <div class="card-body">
+        <p class="card-text text-light">Thoughtfully designed furniture that brings warmth, comfort and character to every corner of your home.</p>
+        <div class="social">
+        <img src="./images/facebook-brands-solid.png" alt="">
+        <img src="./images/instagram-brands-solid.png" alt="">
+        <img src="./images/twitter-brands-solid.png" alt="">
+        <img src="./images/pinterest-p-brands-solid.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card  ms-5 border-0" style="background-color: grey;">
+      <div class="card-body">
+        <h5 class="card-title ps-4"style="color: white;">Explore</h5><br>
+        <!-- <p class="card-text">This is a short card.</p> -->
+         <ul style="color: white; list-style-type: none;">
+          <li><b style="color: orange;">></b> Home</li><br>
+          <li> <b style="color: orange;">></b> Products</li><br>
+          <li> <b style="color: orange;">></b> about</li>
+         </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card  border-0" style="background-color: grey;">
+      <div class="card-body text-light">
+        <h5 class="card-title">Contact</h5><br>
+        <p><img src="./images/location-dot-solid.png" alt="" style="height: 30px;">123 Comfy Lane, Design District <br><br><img src="./images/phone-solid.png" alt=""style="height: 30px;">+1 (555) 012-3456 <br><br><img src="./images/envelope-solid.png" alt=""style="height: 30px;">hello@comfy.store</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card  border-0" style="background-color: grey;">
+      <div class="card-body text-light">
+        <h5 class="card-title">Newsletter</h5><br>
+        <p class="card-text">Get new arrivals and exclusive offers straight to your inbox.</p><br>
+        <div class="input-group mb-3">
+  <input type="email" class="form-control rounded-start-pill" placeholder=" Your email"  aria-describedby="button-addon2">
+  <button class="btn btn-warning btn-outline-light rounded-end-pill" type="button" id="button-addon2">Subscribe</button>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+<div style="text-align: center;height: 50px;background-color: grey;padding: 20px 0px;">
+  <p>© 2026 comfy. all rights reserved.</p>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
 </body>
 </html>
